@@ -1,0 +1,9 @@
+version: '2'
+services:
+    jgallery-mongodb:
+        container_name: jgallery-mongodb
+        image: mongo:3.3.9
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/JGallery/mongodb/:/data/db/
